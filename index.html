@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="content">
+
+    <div class="about">
+        <p class="about__text">Recent Posts</p>
+    </div>
+    <ul class="list-posts">
+        {% for post in site.posts limit:4 %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+{% include footer.html %}

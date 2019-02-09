@@ -1,0 +1,11 @@
+- slug: blog
+  name: Blog
+
+- slug: tutorial
+  name: Tutorial
+
+- slug: research
+  name: Research
+
+- slug: all
+  name: All

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% include category/title.html %}
+
+<div class="content">
+    <ul class="list-posts">
+        {% assign empty_category = false %}
+        {% for post in site.posts %}
+            {% if page.category == "all" or post.categories contains page.category %}
+                <li class="post-teaser">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        <span class="post-teaser__title">{{ post.title }}</span>
+                        <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+                    </a>
+                </li>
+            {% else %}
+                {% assign empty_category = false %}
+            {% endif %}
+        {% endfor %}
+
+        {% if empty_category %}
+            <li class="empty-post-list">
+                It seems that there are no articles on this category.
+            </li>
+        {% endif %}
+    </ul>
+</div>
+
+{% include page/explore.html %}
