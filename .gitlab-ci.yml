@@ -9,7 +9,7 @@ pages:
     git:
         last_commit:
             long_sha: $CI_COMMIT_REF_SLUG
-            short:sha: CI_COMMIT_SHORT_SHA
+            short:sha: $CI_COMMIT_SHORT_SHA
   script:
   - gem install jekyll
   - jekyll build -d public/
