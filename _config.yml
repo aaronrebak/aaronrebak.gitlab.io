@@ -23,6 +23,6 @@ exclude: ["README.md", "README.html"]
 highlighter: null
 markdown: kramdown
 
-# Gem Addons
-gems:
+# Plugins
+plugins:
   - jekyll-git_metadata
