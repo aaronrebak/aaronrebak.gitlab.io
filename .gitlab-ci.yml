@@ -6,10 +6,7 @@ pages:
     LC_ALL: "C.UTF-8"
     LANG: "en_US.UTF-8"
     LANGUAGE: "en_US.UTF-8"
-    git:
-        last_commit:
-            long_sha: $CI_COMMIT_REF_SLUG
-            short_sha: $CI_COMMIT_SHORT_SHA
+    git.last_commit.long_sha: $CI_COMMIT_REF_SLUG
   script:
   - gem install jekyll
   - jekyll build -d public/
