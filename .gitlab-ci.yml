@@ -1,4 +1,4 @@
-image: ruby:2.3
+image: ruby:2.5
 
 pages:
   stage: deploy
@@ -7,8 +7,8 @@ pages:
     LANG: "en_US.UTF-8"
     LANGUAGE: "en_US.UTF-8"
   script:
-  - gem install jekyll
-  - gem install jekyll-git_metadata
+  - apt-get install imagemagick libmagickcore-dev libmagickwand-dev
+  - bundle install --deployment
   - jekyll build -d public/
   artifacts:
     paths:
