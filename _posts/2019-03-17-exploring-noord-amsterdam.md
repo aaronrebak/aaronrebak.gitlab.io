@@ -10,5 +10,12 @@ I recently visited Amsterdam for a city break with my girlfriend. It was brillia
 
 It was a Saturday when Amsterdam is packed full with stoners, and lads on stag dooes that we decided to go north, crossing the River IJ, to Noord. We caught a ferry (which was free!) over to NDSM.  
 
+The Noord is a really unique place, once owned by BP, it is now a derelict industrial place undergoing mass regeneration. 
+
 Arriving at NDSM Port was pretty impressive.  
-{% responsive_image path: assets/images/ndsm_submarine.jpg alt: "NDSM Submarine" %}
+A Soviet Zulu class submarine docked in the harbour - I looked into this and apparently it's for sale. The owners did want to turn it into a night club, but it seems like this plan fell through.
+{% responsive_image path: assets/images/ndsm_submarine.jpg alt: "NDSM Submarine" %}  
+
+While there, we were lucky enough to witness the IJ Hallen market which is only on once a month.  
+This is the biggest flea market in Europe with thousands of stalls selling second hand merchandise.
+{% responsive_image path: assets/images/ij-hallen.jpg alt: "IJ Hallen" %} 
