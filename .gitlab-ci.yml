@@ -8,6 +8,7 @@ pages:
     LANGUAGE: "en_US.UTF-8"
   script:
   - apt-get install imagemagick libmagickcore-dev libmagickwand-dev
+  - gem install bundler
   - bundle install --deployment
   - jekyll build -d public/
   artifacts:
