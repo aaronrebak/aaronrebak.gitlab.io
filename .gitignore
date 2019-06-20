@@ -3,6 +3,7 @@ _site/
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
+assets/resized
 
 # Ruby
 .bundle/
@@ -27,3 +28,6 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+.idea
+*.iml
+.git-metadata/
