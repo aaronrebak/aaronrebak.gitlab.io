@@ -9,6 +9,7 @@ pages:
   script:
   - apt-get install imagemagick libmagickcore-dev libmagickwand-dev
   - gem install bundler
+  - gem install jekyll
   - bundle install --deployment
   - jekyll build -d public/
   artifacts:
