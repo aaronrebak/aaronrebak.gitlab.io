@@ -11,6 +11,7 @@ assets/resized
 .ruby-gemset
 .ruby-version
 *.gem
+Gemfile.lock
 
 # Files
 .analysis
